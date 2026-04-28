@@ -22,24 +22,80 @@
 
 <section class="page-header">
     <h1>CONTACTO</h1>
+    <p>¿Tenés alguna duda o consulta? Estamos para ayudarte.</p>
 </section>
 
 <section class="contact">
+
+    <!-- INFO -->
+    <div class="contact-info">
+        <h3>Hablemos</h3>
+        <p>Respondemos dentro de 24 a 48 horas hábiles.</p>
+        <p>Para consultas sobre pedidos, incluí tu número de orden.</p>
+
+        <div class="contact-alt">
+            <p>📧 soporte@urbn.com</p>
+            <p>📱 WhatsApp: +54 11 1234 5678</p>
+        </div>
+    </div>
+
+    <!-- FORM -->
     <form>
         <input type="text" placeholder="Nombre" required>
         <input type="email" placeholder="Email" required>
+
+        <select required>
+            <option value="">Motivo de contacto</option>
+            <option>Consulta general</option>
+            <option>Pedido</option>
+            <option>Cambios / Devoluciones</option>
+            <option>Pagos</option>
+        </select>
+
+        <input type="text" placeholder="Número de pedido (opcional)">
         <textarea placeholder="Mensaje" required></textarea>
+
         <button type="submit">Enviar</button>
     </form>
+
 </section>
 
+<!-- FAQ -->
+<section class="faq">
+    <h2>Preguntas frecuentes</h2>
+
+    <div class="faq-item">
+        <h4>¿Cuánto tarda el envío?</h4>
+        <p>Entre 3 y 7 días hábiles dependiendo de tu ubicación.</p>
+    </div>
+
+    <div class="faq-item">
+        <h4>¿Cómo hago un cambio?</h4>
+        <p>Podés solicitarlo dentro de los 30 días desde la compra.</p>
+    </div>
+
+    <div class="faq-item">
+        <h4>¿Dónde veo mi pedido?</h4>
+        <p>Te enviamos un email con el seguimiento una vez despachado.</p>
+    </div>
+</section>
+
+<!-- UBICACIÓN -->
+<section class="location">
+    <h2>Punto de retiro</h2>
+    <p>📍 Buenos Aires</p>
+    <p>🕒 Lunes a viernes de 10 a 18 hs</p>
+</section>
+
+<!-- BENEFICIOS -->
 <section class="footer-benefits">
     <div>🚚 Envíos a todo el país</div>
     <div>💳 Pagá en cuotas</div>
     <div>🔄 Cambios fáciles</div>
 </section>
 
-    <footer class="footer">
+<!-- FOOTER -->
+<footer class="footer">
     <div class="footer-container">
 
         <div class="footer-brand">
@@ -49,9 +105,9 @@
 
         <div class="footer-links">
             <h4>Explorar</h4>
-            <a href="#">Shop</a>
-            <a href="#">Colección</a>
-            <a href="#">Nuevo</a>
+            <a href="./shop.html">Shop</a>
+            <a href="./coleccion.html">Colección</a>
+            <a href="./nuevo.html">Nuevo</a>
             <a href="#">Contacto</a>
         </div>
 
