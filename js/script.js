@@ -105,3 +105,25 @@ const collectionObserver = new IntersectionObserver((entries) => {
 });
 
 elements.forEach(el => collectionObserver.observe(el));
+
+/*  ======================
+Flechas carrusel
+=========================*/
+
+const carousel = document.querySelector('.carousel-nuevo');
+const btnLeft = document.querySelector('.arrow.left');
+const btnRight = document.querySelector('.arrow.right');
+
+btnLeft.addEventListener('click', () => {
+    carousel.scrollBy({
+        left: -300,
+        behavior: 'smooth'
+    });
+});
+
+btnRight.addEventListener('click', () => {
+    carousel.scrollBy({
+        left: 300,
+        behavior: 'smooth'
+    });
+});
