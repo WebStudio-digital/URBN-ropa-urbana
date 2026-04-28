@@ -1588,6 +1588,20 @@ footer {
 .arrow {
         display: none;
     }
+
+    .contact {
+        flex-direction: column;
+        gap: 40px;
+        padding: 60px 20px;
+    }
+
+    .contact-info {
+        text-align: center;
+    }
+
+    .contact form {
+        max-width: 100%;
+    }
     
     
 
